@@ -32,7 +32,7 @@ body{
 .footer {
     display: flex;
     margin-top: auto;
-    height: 76px;
+    height: 50px;
     justify-content: center;
     align-items: center;
     color: white;
@@ -40,9 +40,9 @@ body{
 
 .container-one {
     display: flex;
-    height: 190px;
+    height: 150px;
     flex-grow: 1;
-    padding: 40px;
+    padding: 20px;
 }
 .website {
     display: flex;
@@ -67,6 +67,7 @@ body{
     background-color: #3882f6;
     color: white;
     max-width: 100px;
+    border: 2px solid white;
 }
 .image-one {
     display: flex;
@@ -78,12 +79,58 @@ body{
 }
 .container-two {
     display: flex;
-    height: 190px;
+    height: 40px;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 700;
+    color:#1f2937;
+}
+.container-twoone {
+    display: flex;
+    height: 210px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+figure {
+    display: flex;
+    height: 100px;
+}
+figcaption {
+    position: relative;
+    top: 100px;
+    right: 80px;
+
 }
 .container-three {
     display: flex;
-    height: 190px;
+    height: 100px;
+    padding: 80px;
+    background-color: #e5e7eb;
+}
+.text-threeone:first-child {
+    width: 600px;
+    justify-content: center;
+    margin-left: 130px;
+    font-size: 20px;
+    font-style: italic;
+}
+.thor {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
 .container-four {
     display: flex;
+    justify-content: center;
+}
+.container-fourone {
+    background-color: #3882f6;
+    padding: 10px;
+    margin: 50px;
+    height: 100px;
+}
+.button-four {
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
 }
